@@ -53,9 +53,7 @@ class _LoginPageState extends State<LoginPage> {
                     validator: (value) {
                       if (value!.isEmpty) {
                         return "Enter Email";
-                      } else if (value != "mukund@gmail.com") {
-                        return "Not Registered";
-                      }
+                      } 
                     },
                     decoration: InputDecoration(
                       fillColor: Colors.grey.shade200,
